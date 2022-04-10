@@ -1,7 +1,8 @@
 /* style.css */
 
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 .header {
     background-color: #1F2937;
@@ -21,6 +22,7 @@
     font-size: 24px;
     margin-right: auto;
     margin-left: 32px;
+    font-weight: bolder;
 }
 
 .button-one {
@@ -36,6 +38,12 @@
     background-color: #1F2937;
     margin-top: -20px;
     color: #E5E7EB;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
 .maintext {
@@ -43,5 +51,51 @@
     font-weight: bold;
     color: #F9FAF8;
     margin-top: -20px;
+}
 
+.city {
+    width: 750px;
+    height: auto;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.four-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.text {
+    max-width: 200px;
+}
+
+.image-one {
+    width: 200px;
+    height: auto;
+}
+
+.image-two {
+    width: 200px;
+    height: auto;
+}
+
+.image-three {
+    width: 200px;
+    height: auto;
+}
+
+.image-four {
+    width: 200px;
+    height: auto;
 }
